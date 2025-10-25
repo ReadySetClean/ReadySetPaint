@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ReadySetPaint | Toronto Painting Experts</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Simple animation for standout header */
+    .reveal {
+      background: linear-gradient(90deg, #22c55e, #3b82f6, #22c55e);
+      background-size: 200% auto;
+      color: white;
+      text-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      animation: shine 3s linear infinite;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    @keyframes shine {
+      to { background-position: 200% center; }
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- HERO -->
+  <section class="h-screen flex flex-col items-center justify-center text-center bg-gray-50 px-6">
+    <h1 class="text-5xl sm:text-6xl font-bold mb-4 reveal">ReadySetPaint</h1>
+    <p class="text-xl text-gray-600 max-w-lg mb-8">Professional Painting Services in Toronto & the GTA — Fast, Flawless, and Affordable.</p>
+    <a href="#contact" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full font-semibold transition">Get a Free Quote</a>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="py-16 px-6 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-10">Our Services</h2>
+    <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+      <div class="p-6 border rounded-2xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-3 text-green-600">Interior Painting</h3>
+        <p>Transform your living space with crisp, clean walls and expert finishes that last.</p>
+      </div>
+      <div class="p-6 border rounded-2xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-3 text-green-600">Exterior Painting</h3>
+        <p>Boost curb appeal and protect your property with durable, weather-resistant coatings.</p>
+      </div>
+      <div class="p-6 border rounded-2xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-3 text-green-600">Commercial Painting</h3>
+        <p>Reliable painting for offices, retail spaces, and buildings — on time, on budget.</p>
+      </div>
+      <div class="p-6 border rounded-2xl shadow hover:shadow-lg transition md:col-span-3 text-center">
+        <h3 class="text-xl font-semibold mb-3 text-green-600">Drywall Repair</h3>
+        <p>Seamless patching and smoothing to make your walls look brand new before painting.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="bg-gray-50 py-16 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Why Choose ReadySetPaint?</h2>
+      <p class="text-lg text-gray-600 leading-relaxed">
+        At ReadySetPaint, we pride ourselves on precision, professionalism, and passion. Whether it’s a cozy condo or a full commercial project, 
+        our experienced painters deliver quality that speaks for itself. Serving Toronto and the GTA with dedication and care.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-16 px-6 bg-white">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
+      <p class="text-gray-600 mb-8">Ready to refresh your space? Contact us today for a free estimate!</p>
+      <div class="space-y-3">
+        <p class="text-lg"><strong>Email:</strong> <a href="mailto:goreadysetclean@gmail.com" class="text-green-600 hover:underline">goreadysetclean@gmail.com</a></p>
+        <p class="text-lg"><strong>Phone:</strong> <a href="tel:6478096053" class="text-green-600 hover:underline">647-809-6053</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-100 text-center py-6 text-gray-500 text-sm">
+    © 2025 ReadySetPaint — Serving Toronto & the GTA. All right
